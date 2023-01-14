@@ -4,6 +4,7 @@ var specialCharacters="!#$%&()*+,-./:;<=>?@[]\^_~`{}|";
 var upperCaseCharacters="abcdefghijklmnopqrstuvwxyz";
 var lowerCaseCharacters="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 var password="";
+var promptInputs=[];
 var passLength;
 var acceptData= false;
 
@@ -51,5 +52,33 @@ function selectLength() {
       acceptData= true;
   } else {
     alert ("Please enter a valid value.");
+    return;
   }
+}
+
+// function to determine if users prefer lowercase/uppercase characters
+
+
+
+
+
+// function to determine if users prefer numbers
+
+
+
+
+// function to determine if users prefer special characters
+
+
+
+
+// function to randomize passwords after getting all user preferred inputs
+// https://dev.to/nazanin_ashrafi/let-s-create-a-simple-random-password-generator-with-javascript-pdb
+// https://www.w3schools.com/jsref/jsref_charat.asp
+
+function passRandomizer () {
+  for (var i= 0; i < passLength; i++) {
+    result = result + promptInputs.charAT(Math.floor(Math.random()* promptInputs.length))
+  }
+  console.log(result)
 }
