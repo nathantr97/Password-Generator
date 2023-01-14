@@ -30,12 +30,26 @@ function generatePassword() {
   if (acceptData ===true) {
     if (getUserInput()===false) {
       return;
-}
+    }
 passRandomizer();
       return;
-} else {
+  } else {
     console.log(acceptData)
     return;
-}
+  }
 }
 
+// added function to determine how long users want their password to be generated with booleans
+// tested in live server and function is working properly
+function selectLength() {
+  var UserPassLength =prompt ("Enter how long you would like your password (Minimum 8 characters and maximum 128 characters):", "Enter your number Here.")
+  if (UserPassLength < 8 || UserPassLength > 128) {
+    alert ("Please enter a valid length.");
+    return;
+  } else if (UserPassLength => 8 || UserPassLength <= 128) {
+      passLength = UserPassLength;
+      acceptData= true;
+  } else {
+    alert ("Please enter a valid value.");
+  }
+}
