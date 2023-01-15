@@ -73,8 +73,6 @@ if (UserLowerCase === true) {
 // console.log(promptInputs);
 // }
 
-
-
 var UserUpperCase= confirm ("Would you like to have uppercase character(s)");
 if (UserUpperCase === true) {
     promptInputs =promptInputs + upperCaseCharacters;
@@ -84,8 +82,6 @@ if (UserUpperCase === true) {
 //     (UserUpperCase === false) {
 //     console.log(promptInputs);
 //     }
-
-
 
 // function to determine if users prefer numbers
 
@@ -98,8 +94,6 @@ if (UserNumbers === true) {
 // (UserNumbers === false) {
 // console.log(promptInputs);
 // }
-
-
 
 // function to determine if users prefer special characters
 
