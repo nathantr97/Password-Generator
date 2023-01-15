@@ -68,12 +68,24 @@ if (UserLowerCase === true) {
     promptInputs = promptInputs + lowerCaseCharacters;
     console.log(promptInputs);
 }
+// } else if
+// (UserLowerCase === false) {
+// console.log(promptInputs);
+// }
+
+
 
 var UserUpperCase= confirm ("Would you like to have uppercase character(s)");
 if (UserUpperCase === true) {
     promptInputs =promptInputs + upperCaseCharacters;
     console.log(promptInputs);
 }
+// } else if
+//     (UserUpperCase === false) {
+//     console.log(promptInputs);
+//     }
+
+
 
 // function to determine if users prefer numbers
 
@@ -82,6 +94,12 @@ if (UserNumbers === true) {
     promptInputs= promptInputs + numberCharacters;
     console.log(promptInputs);
 }
+// } else if
+// (UserNumbers === false) {
+// console.log(promptInputs);
+// }
+
+
 
 // function to determine if users prefer special characters
 
@@ -90,6 +108,10 @@ if (UserSpecialChars === true) {
     promptInputs= promptInputs + specialCharacters;
     console.log(promptInputs);
 }
+// }   else if
+// (UserSpecialChars === false) {
+// console.log(promptInputs);
+// }
 
 
 //insert a conditional statement if users selections are false
@@ -98,7 +120,6 @@ if (UserLowerCase===false && UserSpecialChars === false && UserNumbers === false
 alert ("Please make one valid selection.");
   return false;
 }
-
 }
 // function to randomize passwords after getting all user preferred inputs
 // https://dev.to/nazanin_ashrafi/let-s-create-a-simple-random-password-generator-with-javascript-pdb
