@@ -30,40 +30,40 @@ https://nathantr97.github.io/Password-Generator/
 
 
 <li> After clicking on the button, users will be prompted with 5 different factors to determine what the users want to have in their new generated passwords. </li>
-<br>
-<li> Main Page </li>
-<br>
 
-![alt=Red-Generate-Password-Button](assets/images/Generate-Button.png)
+<li> Main Page </li>
+
+
+![alt=Red-Generate-Password-Button](Assets/images/Generate-Button.png)
 
 <li> Users need to enter a valid number between 8 and 128 </li>
 <br>
 
-![alt=Enter-Valid-Length-Number](assets/images/length-promp.png)
+![alt=Enter-Valid-Length-Number](Assets/images/length-promp.png)
 
 <li> Users need to select "Ok" or "Cancel" to determine the presence of lowercase letters in their new password. </li>
 
-![alt=Lower-Case-Input](assets/images/lower-case.png)
+![alt=Lower-Case-Input](Assets/images/lower-case.png)
 
 <li> Users need to select "Ok" or "Cancel" to determine the presence of uppercase letters in their new password </li>
 
 
-![alt=Upper-Case-Input](assets/images/upper-case.png)
+![alt=Upper-Case-Input](Assets/images/upper-case.png)
 
 <li> Users need to select "Ok" or "Cancel" to determine the presence of numbers in their new password </li>
 
 
-![alt=Numbers-Input](assets/images/numbers.png.png)
+![alt=Numbers-Input](Assets/images/numbers.png.png)
 
 <li> Users need to select "Ok" or "Cancel" to determine the presence of special characters in their new password </li>
 
 
-![alt=Special-Characters-Input](assets/images/special-characters.png)
+![alt=Special-Characters-Input](Assets/images/special-characters.png)
 
 <li> Once answered all prompts, the application will generate a random password. </li>
 
 
-![alt=example-of-generated-password](assets/images/generated-password-exp.png)
+![alt=example-of-generated-password](Assets/images/generated-password-exp.png)
 
 
 
