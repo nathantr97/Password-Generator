@@ -42,27 +42,26 @@ https://nathantr97.github.io/Password-Generator/
 ![alt=Enter-Valid-Length-Number](assets/images/length-promp.png)
 
 <li> Users need to select "Ok" or "Cancel" to determine the presence of lowercase letters in their new password. </li>
-<br>
 
 ![alt=Lower-Case-Input](assets/images/lower-case.png)
 
 <li> Users need to select "Ok" or "Cancel" to determine the presence of uppercase letters in their new password </li>
-<br>
+
 
 ![alt=Upper-Case-Input](assets/images/upper-case.png)
 
 <li> Users need to select "Ok" or "Cancel" to determine the presence of numbers in their new password </li>
-<br>
+
 
 ![alt=Numbers-Input](assets/images/numbers.png.png)
 
 <li> Users need to select "Ok" or "Cancel" to determine the presence of special characters in their new password </li>
-<br>
+
 
 ![alt=Special-Characters-Input](assets/images/special-characters.png)
 
 <li> Once answered all prompts, the application will generate a random password. </li>
-<br>
+
 
 ![alt=example-of-generated-password](assets/images/generated-password-exp.png)
 
