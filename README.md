@@ -15,11 +15,6 @@ The idea of this project was to create a webpage using Javascript that will help
 <li> Complete Git flow throughout the process to save local changes to GitHub </li>
 <li> Publish site and make sure to run tests on all prompts. </li>
 
-
-<!-- command to insert screenshots 
-![alt= ] (file location) -->
-
-
 ## Links
  
 <li> GitHub Repo URL: </li>
