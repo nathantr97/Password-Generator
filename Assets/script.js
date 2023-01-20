@@ -7,7 +7,7 @@ var GeneratedPass="";
 var promptInputs=[];
 var passLength;
 var acceptData= false;
-// var falseInputs = UserNumbers+UserSpecialChars+UserLowerCase+UserUpperCase;
+
 
 
 // Get references to the #generate element
